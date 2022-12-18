@@ -1,3 +1,8 @@
+* {
+   padding: 0;
+   margin: 0;
+ } 
+
 
 .header_logo img {
    width: 200px;
@@ -19,6 +24,23 @@ ul li {
    float: right;
 }
 
+.firstview {
+   width: 100%;
+}
+
+.firstview__eyecatch {
+   width: 50%;
+
+}
+
+.firstview__eyecatch img {
+   size: cover;
+
+}
+
+
+
+
 .change__clr {
    color: #cc3399;
    font-family: 'Noto Sans JP', sans-serif;
@@ -34,9 +56,9 @@ span {
    color: #0099cc;
 }
 
+
 .firstview_content {
-   margin-top: 90px;
-   margin-left:500px;
+   
 }
 
 .firstview__content-sub-copy {
@@ -50,11 +72,6 @@ span {
    color: #a9a9a9;
    padding-top: 25px;
    line-height: 30px;
-}
-
-.firstview__eyecatch img {
-   margin: 0 0 0 auto;
-   
 }
 
 .common_sub_ttl {
